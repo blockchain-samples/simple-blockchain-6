@@ -54,9 +54,13 @@ const createNewBlock = (data: string): Block => {
         newTimeStamp
     );
 
-    blockChain.push(newBlock);
+    pushNewBlock(newBlock);
 
     return newBlock;
+};
+
+const pushNewBlock = (Block: Block): void => {
+    blockChain.push(Block);
 };
 
 createNewBlock("HI");
