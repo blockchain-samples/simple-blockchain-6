@@ -1,6 +1,6 @@
 ### simple-blockchain
 
->  typescript를 공부할 목적으로 간단한 blockchain 구조를 만들어봤습니다.
+>  typescript를 공부할 목적으로 만들어본 간단한 blockchain 스트락챠
 
 ![demo](demo.gif)
 
